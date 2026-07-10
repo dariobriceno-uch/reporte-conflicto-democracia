@@ -1,0 +1,21 @@
+{
+  "hash": "a929b872f64faf82a3e7312fc7b7fcfd",
+  "result": {
+    "engine": "knitr",
+    "markdown": "---\ntitle: \"Métodos\"\nnumbered: true\n---\n\n\n\n## Datos y acceso abierto\n\nEl estudio utiliza el **Estudio Longitudinal Social de Chile (ELSOC)**, encuesta\npanel del Centro de Estudios de Conflicto y Cohesión Social (COES) que sigue a una\nmuestra probabilística de personas residentes en Chile [@coes_elsoc2023]. Se emplea\nla versión pública `ELSOC_Long_2016_2022_v1.00`, de acceso libre bajo registro en el\nrepositorio del COES (<https://coes.cl/encuesta-panel/>). El indicador central de este\ntrabajo —la percepción de conflicto entre clase alta y baja (`f01_03`)— solo fue\nlevantado en las olas de **2016 y 2018**, por lo que el análisis se restringe a esos\ndos años. Tras eliminar los códigos perdidos propios de ELSOC (−999 a −666), la muestra\nanalítica queda en **6.261 observaciones** con información válida en las\nvariables focales y **3.959** casos completos —correspondientes a\n3.069 individuos— para los modelos multivariados.\n\n## Protocolo reproducible (IPO)\n\nEl flujo sigue la estructura **Entrada–Proceso–Salida**:\n\n- **`input/`** — datos originales (`data-orig/`) y el conjunto analítico depurado\n  (`data-proc/elsoc_analitico.rds`).\n- **`procesamiento/`** — `01-preparacion.R` (selección, recodificación y filtrado) y\n  `02-analisis.R` (modelos, errores robustos y figuras).\n- **`output/`** — tablas, figuras y objetos de resultados que consumen los capítulos.\n\nCon `freeze: auto` los resultados quedan congelados y se regeneran solo al cambiar los\ndatos o el código, garantizando reproducibilidad, en línea con los llamados a documentar y\npublicar métodos y protocolos abiertos y verificables [@cilibrasi2024; @knudtson2019]. El\nrepositorio, el protocolo y las hipótesis pre-registradas se documentan en OSF, y el\nmanuscrito se difunde como preprint antes de la entrega [@nosek2015].\n\n## Operacionalización de variables\n\n\n::: {#tbl-variables .cell tbl-cap='Variables del estudio (ELSOC, olas 2016 y 2018)'}\n::: {.cell-output-display}\n\n\n|Variable                            |Código  |Escala                                  |\n|:-----------------------------------|:-------|:---------------------------------------|\n|Satisfacción con la democracia (VD) |c01     |1 Nada – 5 Muy                          |\n|Percepción de conflicto de clases   |f01_03  |1 Nada de conflicto – 5 Mucho conflicto |\n|Estatus social subjetivo            |d01_01  |0 más bajo – 10 más alto                |\n|Autoubicación izquierda–derecha     |c15     |0 izquierda – 10 derecha                |\n|Confianza en el gobierno            |c05_01  |1 Nada – 5 Mucha                        |\n|Sexo (mujer)                        |m0_sexo |0 hombre / 1 mujer                      |\n|Edad                                |m0_edad |Años                                    |\n\n\n:::\n:::\n\n\n## Estrategia analítica\n\nSe estiman modelos de **regresión lineal por mínimos cuadrados ordinarios (MCO)** con\n**errores estándar agrupados por individuo** (*cluster-robust* por `idencuesta`), dado que\nlas mismas personas participan en las olas de 2016 y 2018 —lo que viola la independencia\nentre observaciones— y que el trabajo previo detectó heterocedasticidad. Se especifican\ntres modelos: (M1) efecto\nbruto del conflicto percibido; (M2) efecto ajustado por estatus, ideología, confianza en\nel gobierno, sexo, edad y año; y (M3) un término de **interacción `conflicto × estatus`**\n—con ambas variables centradas— para contrastar la hipótesis de moderación. Las dos\nhipótesis fueron **pre-registradas antes de estimar los modelos**, de modo que la prueba\nde H2 constituye un contraste confirmatorio y no una búsqueda posterior de significancia.\n",
+    "supporting": [
+      "..\\Users\\brice\\OneDrive\\Desktop\\cienciasocialabierta trabajo2 (cagué\\template-evaluacion-final-main\\04-metodos_files"
+    ],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {},
+    "engineDependencies": {
+      "knitr": [
+        "{\"type\":\"list\",\"attributes\":{},\"value\":[]}"
+      ]
+    },
+    "preserve": null,
+    "postProcess": false
+  }
+}

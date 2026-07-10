@@ -1,0 +1,235 @@
+[
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Percepción del conflicto de clases y satisfacción con la democracia en Chile",
+    "section": "",
+    "text": "Palabras clave: conflicto de clases; satisfacción con la democracia; ELSOC; ciencia abierta; Chile\n\nAbstract\nEn un contexto de baja legitimidad democrática y creciente antagonismo social en Chile, este estudio examina la relación entre la percepción del conflicto de clases y la satisfacción con la democracia. A partir de los datos abiertos del Estudio Longitudinal Social de Chile (ELSOC, COES) para las olas 2016 y 2018 (N = 3.959 casos completos), se estiman modelos de regresión lineal con errores estándar agrupados por individuo y se contrastan dos hipótesis pre-registradas. Los resultados confirman que a mayor percepción de conflicto de clases, menor es la satisfacción con la democracia (H1), efecto negativo y estadísticamente significativo que se mantiene tras controlar por estatus, ideología, confianza en el gobierno, sexo y edad. En cambio, ese efecto no se intensifica entre las personas de menor estatus subjetivo (H2): opera de manera transversal a la posición de clase. El trabajo se enmarca en prácticas de ciencia abierta —pre-registro de hipótesis en OSF, protocolo IPO reproducible, preprint y publicación en GitHub Pages—, ilustrando cómo el pre-registro permite reportar sin sesgo tanto una hipótesis confirmada como una moderación nula.",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Abstract</span>"
+    ]
+  },
+  {
+    "objectID": "01-introduccion.html",
+    "href": "01-introduccion.html",
+    "title": "2  Introducción",
+    "section": "",
+    "text": "2.1 Problema y pregunta de investigación\nChile atraviesa un ciclo prolongado de baja satisfacción con la democracia que convive con una intensa percepción de conflicto entre las clases sociales. El estallido social de 2019 hizo visible una crisis de legitimidad institucional cuyas raíces se vinculan a la desigualdad y a la fractura entre los estratos socioeconómicos (Murillo, 2021). En este contexto, la satisfacción con la democracia opera como un indicador de apoyo específico al desempeño del sistema (Easton, 1975), y su erosión sostenida coincide con niveles regionalmente bajos de adhesión (Corporación Latinobarómetro, 2023). Sin embargo, la literatura ha estudiado por separado los determinantes de la satisfacción democrática y las bases sociales del conflicto de clases (Pérez Ahumada & Andrade de la Horra, 2021), dejando abierto el vínculo entre ambos fenómenos.\nEste capítulo aborda ese vacío preguntando: ¿en qué medida la percepción del conflicto de clases se asocia con la satisfacción con la democracia en Chile, y esa relación es más intensa entre las personas de menor estatus social subjetivo? La conjetura de partida es que percibir una sociedad fracturada por el antagonismo entre la clase alta y la baja se asocia con una peor valoración del funcionamiento democrático, y que esa relación podría concentrarse en los sectores más vulnerables.",
+    "crumbs": [
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Introducción</span>"
+    ]
+  },
+  {
+    "objectID": "01-introduccion.html#objetivos",
+    "href": "01-introduccion.html#objetivos",
+    "title": "2  Introducción",
+    "section": "2.2 Objetivos",
+    "text": "2.2 Objetivos\nEl objetivo general es estimar la asociación entre la percepción del conflicto de clases y la satisfacción con la democracia. Los objetivos específicos son: (i) describir ambos fenómenos en la población adulta chilena; (ii) evaluar el efecto del conflicto percibido controlando por factores sociopolíticos relevantes; y (iii) examinar si dicho efecto varía según el estatus social subjetivo.",
+    "crumbs": [
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Introducción</span>"
+    ]
+  },
+  {
+    "objectID": "01-introduccion.html#estrategia-empírica-y-adelanto-de-resultados",
+    "href": "01-introduccion.html#estrategia-empírica-y-adelanto-de-resultados",
+    "title": "2  Introducción",
+    "section": "2.3 Estrategia empírica y adelanto de resultados",
+    "text": "2.3 Estrategia empírica y adelanto de resultados\nSe utilizan datos del panel ELSOC del COES para las olas 2016 y 2018 (Centro de Estudios de Conflicto y Cohesión Social (COES), 2023), con modelos de regresión lineal y errores estándar agrupados por individuo. Los resultados apoyan la primera hipótesis: a mayor percepción de conflicto, menor satisfacción con la democracia, con una asociación negativa y estadísticamente significativa. En cambio, la segunda hipótesis no se sostiene: la interacción con el estatus subjetivo no es significativa, de modo que la asociación es transversal a la posición de clase.",
+    "crumbs": [
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Introducción</span>"
+    ]
+  },
+  {
+    "objectID": "01-introduccion.html#contribución-y-alcances-del-proyecto-abierto",
+    "href": "01-introduccion.html#contribución-y-alcances-del-proyecto-abierto",
+    "title": "2  Introducción",
+    "section": "2.4 Contribución y alcances del proyecto abierto",
+    "text": "2.4 Contribución y alcances del proyecto abierto\nLa contribución esperada es doble: teórica, al conectar dos cuerpos de literatura habitualmente disociados, y metodológica, al reformular un trabajo previo bajo estándares de ciencia abierta (Nosek et al., 2015) —pre-registro de hipótesis en OSF, protocolo IPO reproducible, preprint y publicación en GitHub Pages—. En cuanto a sus alcances, se trata de un diseño observacional y transversal, por lo que los resultados son asociativos y no permiten inferencia causal; estos y otros límites se retoman en las conclusiones.",
+    "crumbs": [
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Introducción</span>"
+    ]
+  },
+  {
+    "objectID": "01-introduccion.html#estructura-del-documento",
+    "href": "01-introduccion.html#estructura-del-documento",
+    "title": "2  Introducción",
+    "section": "2.5 Estructura del documento",
+    "text": "2.5 Estructura del documento\nEl resto del reporte presenta los antecedentes teóricos, las hipótesis pre-registradas, los métodos, los resultados y las conclusiones, seguidos de un anexo con los instrumentos ELSOC.\n\n\n\n\n\n\nCentro de Estudios de Conflicto y Cohesión Social (COES). (2023). Estudio Longitudinal Social de Chile (ELSOC) 2016–2022, versión 1.00. Base de datos; COES.\n\n\nCorporación Latinobarómetro. (2023). Informe 2023: La recesión democrática de América Latina. Corporación Latinobarómetro. https://www.latinobarometro.org\n\n\nEaston, D. (1975). A Re-assessment of the Concept of Political Support. British Journal of Political Science, 5(4), 435-457. https://doi.org/10.1017/S0007123400008309\n\n\nMurillo, M. V. (2021). Protestas, descontento y democracia en América Latina. Nueva Sociedad, 294. https://nuso.org/articulo/protestas-descontento-y-democracia-en-america-latina/\n\n\nNosek, B. A., Alter, G., Banks, G. C., et al. (2015). Promoting an Open Research Culture. Science, 348(6242), 1422-1425. https://doi.org/10.1126/science.aab2374\n\n\nPérez Ahumada, P., & Andrade de la Horra, V. (2021). Clase, política y percepción del conflicto de clases en Chile. Revista Temas Sociológicos, 29, 323-353.",
+    "crumbs": [
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Introducción</span>"
+    ]
+  },
+  {
+    "objectID": "02-antecedentes.html",
+    "href": "02-antecedentes.html",
+    "title": "3  Antecedentes",
+    "section": "",
+    "text": "3.1 Satisfacción con la democracia\nLa satisfacción con la democracia se entiende habitualmente como una evaluación del desempeño del régimen, distinta del respaldo a sus principios. Easton (Easton, 1975) distingue entre un apoyo difuso —adhesión a la comunidad política y a sus valores— y un apoyo específico, ligado a los resultados concretos que producen las autoridades. La satisfacción con la democracia se ubica más cerca de este segundo polo: expresa cómo los ciudadanos juzgan el funcionamiento efectivo del sistema y no solo su legitimidad de principio. Norris (Norris, 2011) matiza esta lectura al describir a los “ciudadanos críticos”, que adhieren a los ideales democráticos pero se muestran insatisfechos con su realización, lo que revela un déficit entre expectativas y desempeño, en línea con la erosión más amplia del apoyo político documentada en las democracias contemporáneas (Dalton, 2004).\nDiversos factores modelan esta evaluación. Anderson y Guillory (Anderson & Guillory, 1997) muestran que la posición de “ganadores” o “perdedores” frente a los resultados políticos condiciona la satisfacción: quienes se alinean con el poder de turno tienden a evaluarlo mejor. La desigualdad y la ideología también intervienen: Anderson y Singer (Anderson & Singer, 2008) evidencian que la izquierda es más sensible a la desigualdad al momento de juzgar la legitimidad del régimen. En América Latina, Vargas y González (Vargas Chanes & González Núñez, 2013) identifican determinantes económicos, institucionales y de confianza que estructuran estas percepciones, mientras que el Latinobarómetro (Corporación Latinobarómetro, 2023) documenta niveles de satisfacción persistentemente bajos en la región, coherentes con un malestar democrático extendido. Chile no escapa a este patrón, y ofrece un caso pertinente para examinar qué erosiona la valoración del régimen.",
+    "crumbs": [
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Antecedentes</span>"
+    ]
+  },
+  {
+    "objectID": "02-antecedentes.html#percepción-del-conflicto-de-clases",
+    "href": "02-antecedentes.html#percepción-del-conflicto-de-clases",
+    "title": "3  Antecedentes",
+    "section": "3.2 Percepción del conflicto de clases",
+    "text": "3.2 Percepción del conflicto de clases\nUn segundo cuerpo de literatura aborda cómo los individuos perciben las divisiones sociales. Bourdieu (Bourdieu, 2012) concibe la clase no solo como una posición económica, sino como un principio de diferenciación simbólica que estructura prácticas, gustos y esquemas de percepción; desde esta óptica, el conflicto entre grupos es también una lucha por la clasificación legítima del mundo social. La percepción del conflicto de clases, entonces, no refleja mecánicamente la estructura objetiva, sino que se construye a partir de experiencias y posiciones diferenciadas.\nPérez Ahumada y Andrade (Pérez Ahumada & Andrade de la Horra, 2021) analizan los determinantes de esta percepción en Chile, mostrando que la clase social, la privación económica y la identificación con la izquierda refuerzan la percepción de oposición entre clases. Este antagonismo percibido adquirió especial relevancia con el estallido social de 2019, que Murillo (Murillo, 2021) interpreta como una crisis de legitimidad en que las demandas por desigualdad y el cuestionamiento a las élites tensionaron el vínculo entre ciudadanía e instituciones. Somma y colegas (Somma et al., 2021) leen ese “despertar” chileno como el desenlace de una contradicción sostenida entre modelo económico y expectativas democráticas. La percepción de un conflicto agudo entre clase alta y baja se vuelve así un rasgo saliente del clima político reciente.",
+    "crumbs": [
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Antecedentes</span>"
+    ]
+  },
+  {
+    "objectID": "02-antecedentes.html#el-vacío-en-la-literatura",
+    "href": "02-antecedentes.html#el-vacío-en-la-literatura",
+    "title": "3  Antecedentes",
+    "section": "3.3 El vacío en la literatura",
+    "text": "3.3 El vacío en la literatura\nAmbos cuerpos de literatura han avanzado de manera relativamente separada: uno explica la satisfacción con la democracia a partir de factores económicos, institucionales y de confianza; el otro describe cómo se forma la percepción del conflicto de clases. Sin embargo, la conexión entre las dos dimensiones ha sido poco explorada empíricamente, pese a que la teoría de la legitimidad sugiere que un antagonismo social intenso podría minar la evaluación del régimen. Queda abierta la pregunta de si la percepción del conflicto de clases erosiona la satisfacción democrática y, en tal caso, si ese efecto se concentra en los sectores de menor estatus o atraviesa transversalmente a la sociedad. Este estudio busca cubrir dicho vacío articulando ambos enfoques con datos de panel para el caso chileno.\n\n\n\n\n\n\nAnderson, C. J., & Guillory, C. A. (1997). Political Institutions and Satisfaction with Democracy: A Cross-National Analysis of Consensus and Majoritarian Systems. American Political Science Review, 91(1), 66-81. https://doi.org/10.2307/2952259\n\n\nAnderson, C. J., & Singer, M. M. (2008). The Sensitive Left and the Impervious Right: Multilevel Models and the Politics of Inequality, Ideology, and Legitimacy in Europe. Comparative Political Studies, 41(4–5), 564-599. https://doi.org/10.1177/0010414007313113\n\n\nBourdieu, P. (2012). La distinción: Criterio y bases sociales del gusto. Taurus.\n\n\nCorporación Latinobarómetro. (2023). Informe 2023: La recesión democrática de América Latina. Corporación Latinobarómetro. https://www.latinobarometro.org\n\n\nDalton, R. J. (2004). Democratic Challenges, Democratic Choices: The Erosion of Political Support in Advanced Industrial Democracies. Oxford University Press.\n\n\nEaston, D. (1975). A Re-assessment of the Concept of Political Support. British Journal of Political Science, 5(4), 435-457. https://doi.org/10.1017/S0007123400008309\n\n\nMurillo, M. V. (2021). Protestas, descontento y democracia en América Latina. Nueva Sociedad, 294. https://nuso.org/articulo/protestas-descontento-y-democracia-en-america-latina/\n\n\nNorris, P. (2011). Democratic Deficit: Critical Citizens Revisited. Cambridge University Press.\n\n\nPérez Ahumada, P., & Andrade de la Horra, V. (2021). Clase, política y percepción del conflicto de clases en Chile. Revista Temas Sociológicos, 29, 323-353.\n\n\nSomma, N. M., Bargsted, M., Disi Pavlic, R., & Medel, R. M. (2021). No water in the oasis: the Chilean Spring of 2019–2020. Social Movement Studies, 20(4), 495-502. https://doi.org/10.1080/14742837.2020.1727737\n\n\nVargas Chanes, D., & González Núñez, J. C. (2013). Los determinantes de la satisfacción con la democracia, desde el enfoque de un modelo multinivel. EconoQuantum, 10(2), 55-75.",
+    "crumbs": [
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Antecedentes</span>"
+    ]
+  },
+  {
+    "objectID": "03-hipotesis.html",
+    "href": "03-hipotesis.html",
+    "title": "4  Hipótesis",
+    "section": "",
+    "text": "Los antecedentes revisados dejan planteado un problema todavía sin resolver: la posible incidencia de la percepción del conflicto de clases sobre la satisfacción con la democracia, y su eventual dependencia de la posición social de las personas. De ese vacío se derivan las dos hipótesis que este estudio pre-registra y somete a prueba.\nH1: A mayor percepción de conflicto de clases entre la clase alta y la clase baja, menor es la satisfacción con la democracia. La percepción de un conflicto intenso entre grupos sociales opera como una señal de que el sistema no logra procesar ni integrar las tensiones distributivas. Desde Easton, esa percepción reduciría el apoyo específico y, de sostenerse, también el difuso (Easton, 1975); en la lógica de ganadores y perdedores, quienes leen el orden social como confrontacional tenderían a sentirse peor representados y menos conformes con el desempeño democrático (Anderson & Guillory, 1997).\nH2: El efecto negativo del conflicto percibido sobre la satisfacción con la democracia es más intenso en las personas con menor estatus social subjetivo. Bajo la hipótesis de vulnerabilidad de clase, quienes se ubican en las posiciones inferiores serían más sensibles al conflicto, pues cargan con mayor exposición a la desigualdad y menor capacidad de incidencia, de modo que su malestar se traduciría con más fuerza en desafección democrática (Bourdieu, 2012; Pérez Ahumada & Andrade de la Horra, 2021).\nAmbas hipótesis se pre-registran en OSF antes del análisis de los datos, con el fin de garantizar un contraste estrictamente confirmatorio y transparente (Nosek et al., 2015).\n\n\n\n\n\n\nAnderson, C. J., & Guillory, C. A. (1997). Political Institutions and Satisfaction with Democracy: A Cross-National Analysis of Consensus and Majoritarian Systems. American Political Science Review, 91(1), 66-81. https://doi.org/10.2307/2952259\n\n\nBourdieu, P. (2012). La distinción: Criterio y bases sociales del gusto. Taurus.\n\n\nEaston, D. (1975). A Re-assessment of the Concept of Political Support. British Journal of Political Science, 5(4), 435-457. https://doi.org/10.1017/S0007123400008309\n\n\nNosek, B. A., Alter, G., Banks, G. C., et al. (2015). Promoting an Open Research Culture. Science, 348(6242), 1422-1425. https://doi.org/10.1126/science.aab2374\n\n\nPérez Ahumada, P., & Andrade de la Horra, V. (2021). Clase, política y percepción del conflicto de clases en Chile. Revista Temas Sociológicos, 29, 323-353.",
+    "crumbs": [
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Hipótesis</span>"
+    ]
+  },
+  {
+    "objectID": "04-metodos.html",
+    "href": "04-metodos.html",
+    "title": "5  Métodos",
+    "section": "",
+    "text": "5.1 Datos y acceso abierto\nEl estudio utiliza el Estudio Longitudinal Social de Chile (ELSOC), encuesta panel del Centro de Estudios de Conflicto y Cohesión Social (COES) que sigue a una muestra probabilística de personas residentes en Chile (Centro de Estudios de Conflicto y Cohesión Social (COES), 2023). Se emplea la versión pública ELSOC_Long_2016_2022_v1.00, de acceso libre bajo registro en el repositorio del COES (https://coes.cl/encuesta-panel/). El indicador central de este trabajo —la percepción de conflicto entre clase alta y baja (f01_03)— solo fue levantado en las olas de 2016 y 2018, por lo que el análisis se restringe a esos dos años. Tras eliminar los códigos perdidos propios de ELSOC (−999 a −666), la muestra analítica queda en 6.261 observaciones con información válida en las variables focales y 3.959 casos completos —correspondientes a 3.069 individuos— para los modelos multivariados.",
+    "crumbs": [
+      "<span class='chapter-number'>5</span>  <span class='chapter-title'>Métodos</span>"
+    ]
+  },
+  {
+    "objectID": "04-metodos.html#protocolo-reproducible-ipo",
+    "href": "04-metodos.html#protocolo-reproducible-ipo",
+    "title": "5  Métodos",
+    "section": "5.2 Protocolo reproducible (IPO)",
+    "text": "5.2 Protocolo reproducible (IPO)\nEl flujo sigue la estructura Entrada–Proceso–Salida:\n\ninput/ — datos originales (data-orig/) y el conjunto analítico depurado (data-proc/elsoc_analitico.rds).\nprocesamiento/ — 01-preparacion.R (selección, recodificación y filtrado) y 02-analisis.R (modelos, errores robustos y figuras).\noutput/ — tablas, figuras y objetos de resultados que consumen los capítulos.\n\nCon freeze: auto los resultados quedan congelados y se regeneran solo al cambiar los datos o el código, garantizando reproducibilidad, en línea con los llamados a documentar y publicar métodos y protocolos abiertos y verificables (Cilibrasi, 2024; Knudtson et al., 2019). El repositorio, el protocolo y las hipótesis pre-registradas se documentan en OSF, y el manuscrito se difunde como preprint antes de la entrega (Nosek et al., 2015).",
+    "crumbs": [
+      "<span class='chapter-number'>5</span>  <span class='chapter-title'>Métodos</span>"
+    ]
+  },
+  {
+    "objectID": "04-metodos.html#operacionalización-de-variables",
+    "href": "04-metodos.html#operacionalización-de-variables",
+    "title": "5  Métodos",
+    "section": "5.3 Operacionalización de variables",
+    "text": "5.3 Operacionalización de variables\n\n\n\n\nLista de tablas 5.1: Variables del estudio (ELSOC, olas 2016 y 2018)\n\n\n\n\n\n\n\n\n\n\n\nVariable\nCódigo\nEscala\n\n\n\n\nSatisfacción con la democracia (VD)\nc01\n1 Nada – 5 Muy\n\n\nPercepción de conflicto de clases\nf01_03\n1 Nada de conflicto – 5 Mucho conflicto\n\n\nEstatus social subjetivo\nd01_01\n0 más bajo – 10 más alto\n\n\nAutoubicación izquierda–derecha\nc15\n0 izquierda – 10 derecha\n\n\nConfianza en el gobierno\nc05_01\n1 Nada – 5 Mucha\n\n\nSexo (mujer)\nm0_sexo\n0 hombre / 1 mujer\n\n\nEdad\nm0_edad\nAños",
+    "crumbs": [
+      "<span class='chapter-number'>5</span>  <span class='chapter-title'>Métodos</span>"
+    ]
+  },
+  {
+    "objectID": "04-metodos.html#estrategia-analítica",
+    "href": "04-metodos.html#estrategia-analítica",
+    "title": "5  Métodos",
+    "section": "5.4 Estrategia analítica",
+    "text": "5.4 Estrategia analítica\nSe estiman modelos de regresión lineal por mínimos cuadrados ordinarios (MCO) con errores estándar agrupados por individuo (cluster-robust por idencuesta), dado que las mismas personas participan en las olas de 2016 y 2018 —lo que viola la independencia entre observaciones— y que el trabajo previo detectó heterocedasticidad. Se especifican tres modelos: (M1) efecto bruto del conflicto percibido; (M2) efecto ajustado por estatus, ideología, confianza en el gobierno, sexo, edad y año; y (M3) un término de interacción conflicto × estatus —con ambas variables centradas— para contrastar la hipótesis de moderación. Las dos hipótesis fueron pre-registradas antes de estimar los modelos, de modo que la prueba de H2 constituye un contraste confirmatorio y no una búsqueda posterior de significancia.\n\n\n\n\n\n\nCentro de Estudios de Conflicto y Cohesión Social (COES). (2023). Estudio Longitudinal Social de Chile (ELSOC) 2016–2022, versión 1.00. Base de datos; COES.\n\n\nCilibrasi, C. (2024). Empowering scientific progress: the vital role of open-access, peer-reviewed methods and protocols. BMC Methods, 1(1), 1. https://doi.org/10.1186/s44330-024-00001-8\n\n\nKnudtson, K. L., Carnahan, R. H., Hegstad-Davies, R. L., Fisher, N. C., Hicks, B., Lopez, P. A., Meyn, S. M., Mische, S. M., Weis-Garcia, F., White, L. D., & Sol-Church, K. (2019). Survey on Scientific Shared Resource Rigor and Reproducibility. Journal of Biomolecular Techniques, 30(3), 36-44. https://doi.org/10.7171/jbt.19-3003-001\n\n\nNosek, B. A., Alter, G., Banks, G. C., et al. (2015). Promoting an Open Research Culture. Science, 348(6242), 1422-1425. https://doi.org/10.1126/science.aab2374",
+    "crumbs": [
+      "<span class='chapter-number'>5</span>  <span class='chapter-title'>Métodos</span>"
+    ]
+  },
+  {
+    "objectID": "05-resultados.html",
+    "href": "05-resultados.html",
+    "title": "6  Resultados",
+    "section": "",
+    "text": "6.1 Descriptivos\nLa satisfacción con la democracia es baja: la media alcanza apenas 2,14 en una escala de 1 a 5 y un 63,57% de las personas se declara nada o poco satisfecha (Figura 6.1). En paralelo, la percepción de conflicto entre clase alta y baja es alta y generalizada: la media es 3,73 y un 64,00% percibe bastante o mucho conflicto. El escenario descriptivo ya sugiere la coexistencia de una democracia mal evaluada con una fuerte percepción de antagonismo de clases.",
+    "crumbs": [
+      "<span class='chapter-number'>6</span>  <span class='chapter-title'>Resultados</span>"
+    ]
+  },
+  {
+    "objectID": "05-resultados.html#descriptivos",
+    "href": "05-resultados.html#descriptivos",
+    "title": "6  Resultados",
+    "section": "",
+    "text": "Lista de figuras 6.1: Distribución de la satisfacción con la democracia.",
+    "crumbs": [
+      "<span class='chapter-number'>6</span>  <span class='chapter-title'>Resultados</span>"
+    ]
+  },
+  {
+    "objectID": "05-resultados.html#h1-conflicto-de-clases-y-satisfacción-con-la-democracia",
+    "href": "05-resultados.html#h1-conflicto-de-clases-y-satisfacción-con-la-democracia",
+    "title": "6  Resultados",
+    "section": "6.2 H1: conflicto de clases y satisfacción con la democracia",
+    "text": "6.2 H1: conflicto de clases y satisfacción con la democracia\nEl Figura 6.2 muestra un descenso monótono: a medida que aumenta el conflicto percibido, cae la satisfacción media con la democracia. Los modelos confirman el patrón (Tabla 6.1). En el modelo bruto (M1) cada punto adicional de conflicto reduce la satisfacción en 0,11 puntos; al incorporar controles (M2), la asociación se atenúa pero se mantiene negativa y estadísticamente significativa (β = -0,05, EE = 0,02, p = 0,003). La atenuación se explica porque la confianza en el gobierno absorbe buena parte de la varianza (β = 0,47, p &lt; 0,001) y eleva el R² del modelo a 0,23. H1 recibe apoyo empírico.\n\n\n\n\n\n\nLista de figuras 6.2: H1: satisfacción media con la democracia según el nivel de conflicto percibido (IC 95%).\n\n\n\n\n\n\n\nLista de tablas 6.1: Modelos MCO de la satisfacción con la democracia (errores agrupados por individuo)\n\n\n\n\n\n\n\nM1\n&nbsp;M2\n&nbsp;M3\n\n\n\n\nConflicto percibido\n-0.107***\n-0.049**\n-0.049**\n\n\n\n(0.015)\n(0.016)\n(0.017)\n\n\nEstatus subjetivo\n\n0.029**\n0.029**\n\n\n\n\n(0.010)\n(0.010)\n\n\nConflicto × Estatus\n\n\n0.001\n\n\n\n\n\n(0.010)\n\n\nIzquierda–derecha\n\n-0.029***\n-0.029***\n\n\n\n\n(0.007)\n(0.007)\n\n\nConfianza gobierno\n\n0.469***\n0.469***\n\n\n\n\n(0.016)\n(0.016)\n\n\nMujer\n\n0.032\n0.032\n\n\n\n\n(0.032)\n(0.032)\n\n\nEdad\n\n0.001\n0.001\n\n\n\n\n(0.001)\n(0.001)\n\n\nAño 2018\n\n0.116***\n0.116***\n\n\n\n\n(0.031)\n(0.031)\n\n\n(Intercepto)\n2.544***\n1.249***\n1.193***\n\n\n\n(0.057)\n(0.103)\n(0.063)\n\n\nNum.Obs.\n6261\n3959\n3959\n\n\nR2\n0.009\n0.227\n0.227\n\n\n\n * p &lt; 0.05, ** p &lt; 0.01, *** p &lt; 0.001\n\n\n\n\n\n Errores estándar agrupados por individuo (cluster idencuesta) entre paréntesis. Fuente: ELSOC 2016 y 2018 (COES).",
+    "crumbs": [
+      "<span class='chapter-number'>6</span>  <span class='chapter-title'>Resultados</span>"
+    ]
+  },
+  {
+    "objectID": "05-resultados.html#h2-modera-el-estatus-subjetivo-el-efecto-del-conflicto",
+    "href": "05-resultados.html#h2-modera-el-estatus-subjetivo-el-efecto-del-conflicto",
+    "title": "6  Resultados",
+    "section": "6.3 H2: ¿modera el estatus subjetivo el efecto del conflicto?",
+    "text": "6.3 H2: ¿modera el estatus subjetivo el efecto del conflicto?\nEl término de interacción conflicto × estatus (M3) es prácticamente nulo y no significativo (β = 0,00, p = 0,888), y el R² no mejora respecto de M2. Como ilustra el Figura 6.3, las pendientes para personas de estatus bajo (p25) y alto (p75) son casi paralelas: la asociación negativa entre conflicto percibido y satisfacción democrática es transversal, sin intensificarse en los estratos subjetivamente más bajos. H2 no recibe apoyo empírico.\n\n\n\n\n\n\nLista de figuras 6.3: H2: el efecto del conflicto no varía según el estatus subjetivo.\n\n\n\nEste resultado —un efecto principal robusto junto a una moderación nula— es precisamente el tipo de hallazgo que el pre-registro permite reportar sin sesgo: la ausencia de moderación no fue reinterpretada a posteriori buscando otro moderador significativo.",
+    "crumbs": [
+      "<span class='chapter-number'>6</span>  <span class='chapter-title'>Resultados</span>"
+    ]
+  },
+  {
+    "objectID": "06-conclusiones.html",
+    "href": "06-conclusiones.html",
+    "title": "7  Conclusiones",
+    "section": "",
+    "text": "Este trabajo analizó la relación entre la percepción del conflicto de clases y la satisfacción con la democracia en Chile a partir de los datos del panel ELSOC (COES) correspondientes a las olas 2016 y 2018. Los resultados respaldan la primera hipótesis: a mayor percepción de conflicto entre la clase alta y la baja, menor es la satisfacción con la democracia (coeficiente ajustado -0,05; p = 0,003). La asociación es negativa y estadísticamente significativa aun tras controlar por estatus subjetivo, confianza en el gobierno, ideología y variables sociodemográficas, y con errores estándar agrupados por individuo. En cambio, la segunda hipótesis no encuentra respaldo: la interacción entre conflicto y estatus subjetivo resultó nula (coeficiente 0,00; p = 0,888), sin mejora en el ajuste del modelo. La asociación negativa del conflicto percibido es, por tanto, transversal a la posición de clase y no se concentra en los sectores de menor estatus.\nDesde el punto de vista teórico, este hallazgo indica que la percepción de una sociedad fracturada por el conflicto de clases coincide con una menor satisfacción con la democracia de manera generalizada, lo cual es consistente con la figura de las ciudadanías críticas y el déficit democrático (Norris, 2011). La coexistencia de una democracia mal evaluada y una alta percepción de conflicto genera un escenario de descontento difuso que atraviesa las distintas posiciones sociales.\nEl estudio tiene límites que es necesario explicitar. Por tratarse de un diseño observacional y transversal —se emplean dos olas sin modelar el cambio intraindividual—, los resultados son asociativos y no permiten inferencia causal, aunque los errores estándar se agruparon por individuo para reconocer la presencia de las mismas personas en ambas olas. Las medidas son autoreportadas, con los sesgos asociados; y el poder explicativo del modelo depende fuertemente de la confianza en el gobierno, el predictor más robusto, lo que relativiza el peso relativo del conflicto de clases.\nEn términos de ciencia abierta, el proyecto incorpora prácticas de transparencia que responden a las preocupaciones contemporáneas sobre la reproducibilidad de la investigación (Baker, 2016): pre-registro de hipótesis en OSF, protocolo IPO plenamente reproducible, preprint y publicación del libro en GitHub Pages (Nosek et al., 2015). El pre-registro cumple aquí una función metodológica central: permite reportar sin sesgo una moderación nula como la de H2, evitando tanto su ocultamiento como su reinterpretación oportunista tras conocer los resultados.\nComo proyección, se propone aprovechar el carácter longitudinal del panel ELSOC para modelar la evolución intraindividual de estas percepciones, e incorporar otras dimensiones del conflicto social —más allá del eje clase alta-baja— para precisar qué facetas del antagonismo percibido erosionan con mayor fuerza el apoyo a la democracia.\n\n\n\n\n\n\nBaker, M. (2016). 1,500 scientists lift the lid on reproducibility. Nature, 533(7604), 452-454. https://doi.org/10.1038/533452a\n\n\nNorris, P. (2011). Democratic Deficit: Critical Citizens Revisited. Cambridge University Press.\n\n\nNosek, B. A., Alter, G., Banks, G. C., et al. (2015). Promoting an Open Research Culture. Science, 348(6242), 1422-1425. https://doi.org/10.1126/science.aab2374",
+    "crumbs": [
+      "<span class='chapter-number'>7</span>  <span class='chapter-title'>Conclusiones</span>"
+    ]
+  },
+  {
+    "objectID": "references.html",
+    "href": "references.html",
+    "title": "Referencias",
+    "section": "",
+    "text": "Anderson, C. J., & Guillory, C. A. (1997). Political institutions\nand satisfaction with democracy: A cross-national analysis of consensus\nand majoritarian systems. American Political Science Review,\n91(1), 66–81. https://doi.org/10.2307/2952259\n\n\nAnderson, C. J., & Singer, M. M. (2008). The sensitive left and the\nimpervious right: Multilevel models and the politics of inequality,\nideology, and legitimacy in europe. Comparative Political\nStudies, 41(4–5), 564–599. https://doi.org/10.1177/0010414007313113\n\n\nBaker, M. (2016). 1,500 scientists lift the lid on reproducibility.\nNature, 533(7604), 452–454. https://doi.org/10.1038/533452a\n\n\nBourdieu, P. (2012). La distinción: Criterio y bases sociales del\ngusto. Taurus.\n\n\nCentro de Estudios de Conflicto y Cohesión Social (COES). (2023).\nEstudio longitudinal social de chile (ELSOC) 2016–2022, versión\n1.00. Base de datos; COES.\n\n\nCilibrasi, C. (2024). Empowering scientific progress: The vital role of\nopen-access, peer-reviewed methods and protocols. BMC Methods,\n1(1), 1. https://doi.org/10.1186/s44330-024-00001-8\n\n\nCorporación Latinobarómetro. (2023). Informe 2023: La recesión\ndemocrática de américa latina. Corporación Latinobarómetro. https://www.latinobarometro.org\n\n\nDalton, R. J. (2004). Democratic challenges, democratic choices: The\nerosion of political support in advanced industrial democracies.\nOxford University Press.\n\n\nEaston, D. (1975). A re-assessment of the concept of political support.\nBritish Journal of Political Science, 5(4), 435–457.\nhttps://doi.org/10.1017/S0007123400008309\n\n\nKnudtson, K. L., Carnahan, R. H., Hegstad-Davies, R. L., Fisher, N. C.,\nHicks, B., Lopez, P. A., Meyn, S. M., Mische, S. M., Weis-Garcia, F.,\nWhite, L. D., & Sol-Church, K. (2019). Survey on scientific shared\nresource rigor and reproducibility. Journal of Biomolecular\nTechniques, 30(3), 36–44. https://doi.org/10.7171/jbt.19-3003-001\n\n\nMurillo, M. V. (2021). Protestas, descontento y democracia en américa\nlatina. Nueva Sociedad, 294. https://nuso.org/articulo/protestas-descontento-y-democracia-en-america-latina/\n\n\nNorris, P. (2011). Democratic deficit: Critical citizens\nrevisited. Cambridge University Press.\n\n\nNosek, B. A., Alter, G., Banks, G. C., et\nal. (2015). Promoting an open research culture. Science,\n348(6242), 1422–1425. https://doi.org/10.1126/science.aab2374\n\n\nPérez Ahumada, P., & Andrade de la Horra, V. (2021). Clase, política\ny percepción del conflicto de clases en chile. Revista Temas\nSociológicos, 29, 323–353.\n\n\nSomma, N. M., Bargsted, M., Disi Pavlic, R., & Medel, R. M. (2021).\nNo water in the oasis: The chilean spring of 2019–2020. Social\nMovement Studies, 20(4), 495–502. https://doi.org/10.1080/14742837.2020.1727737\n\n\nVargas Chanes, D., & González Núñez, J. C. (2013). Los determinantes\nde la satisfacción con la democracia, desde el enfoque de un modelo\nmultinivel. EconoQuantum, 10(2), 55–75.",
+    "crumbs": [
+      "<span class='chapter-number'>8</span>  <span class='chapter-title'>Referencias</span>"
+    ]
+  },
+  {
+    "objectID": "apendices/A-encuestas.html",
+    "href": "apendices/A-encuestas.html",
+    "title": "Anexo A - Instrumentos de levantamiento",
+    "section": "",
+    "text": "A.1 El Estudio Longitudinal Social de Chile (ELSOC)\nLos datos provienen del Estudio Longitudinal Social de Chile (ELSOC), encuesta panel de carácter probabilístico desarrollada por el Centro de Estudios de Conflicto y Cohesión Social (COES). El estudio sigue anualmente a una muestra representativa de la población adulta (18 a 75 años) residente en zonas urbanas del país, con el propósito de registrar la evolución de actitudes, creencias y percepciones sobre la convivencia social. En este trabajo se utilizan las olas 2016 y 2018, únicas que incluyen el ítem de percepción de conflicto de clases.",
+    "crumbs": [
+      "Apéndices",
+      "<span class='chapter-number'>A</span>  <span class='chapter-title'>Instrumentos de levantamiento</span>"
+    ]
+  },
+  {
+    "objectID": "apendices/A-encuestas.html#ítems-utilizados",
+    "href": "apendices/A-encuestas.html#ítems-utilizados",
+    "title": "Anexo A - Instrumentos de levantamiento",
+    "section": "A.2 Ítems utilizados",
+    "text": "A.2 Ítems utilizados\n\nSatisfacción con la democracia (c01): grado de satisfacción con el funcionamiento de la democracia en Chile (escala 1 = nada satisfecho a 5 = muy satisfecho).\nPercepción de conflicto de clases (f01_03): intensidad del conflicto percibido entre personas de clase alta y personas de clase baja (escala 1 = nada de conflicto a 5 = mucho conflicto).\nEstatus social subjetivo (d01_01): autoubicación en una escalera social de 0 (posición más baja) a 10 (posición más alta).\nAutoubicación política (c15): posición en el eje izquierda-derecha (0 = izquierda a 10 = derecha).\nConfianza en el gobierno (c05_01): nivel de confianza declarada en el gobierno (escala 1 = nada a 5 = mucha).\n\nLas bases y los cuestionarios completos son de acceso público, previo registro gratuito, en el sitio web de COES.",
+    "crumbs": [
+      "Apéndices",
+      "<span class='chapter-number'>A</span>  <span class='chapter-title'>Instrumentos de levantamiento</span>"
+    ]
+  },
+  {
+    "objectID": "apendices/B-tablas.html",
+    "href": "apendices/B-tablas.html",
+    "title": "Anexo B - Tablas adicionales y robustez",
+    "section": "",
+    "text": "B.1 Moderadores alternativos\nEste anexo reúne análisis exploratorios (no pre-registrados) que ponen a prueba la robustez del hallazgo principal. Se declaran explícitamente como exploratorios para distinguirlos del contraste confirmatorio del cuerpo del informe.\nAdemás del estatus subjetivo (H2), se examinaron —de forma exploratoria— dos moderadores teóricamente plausibles: la autoubicación ideológica y la confianza en el gobierno. Ninguna interacción resulta estadísticamente significativa, lo que refuerza la conclusión de que el efecto del conflicto percibido es transversal.\nLista de tablas B.1: Modelos exploratorios con moderadores alternativos (errores agrupados por individuo)\n\n\n\n\n\n\n\n&nbsp;× Ideología\n× Confianza\n\n\n\n\nConflicto percibido\n-0.049**\n-0.049**\n\n\n\n(0.017)\n(0.016)\n\n\nConflicto × Ideología\n-0.003\n\n\n\n\n(0.007)\n\n\n\nConflicto × Confianza gob.\n\n-0.003\n\n\n\n\n(0.016)\n\n\nIzquierda–derecha\n-0.029***\n\n\n\n\n(0.007)\n\n\n\nConfianza gobierno\n\n0.469***\n\n\n\n\n(0.016)\n\n\nNum.Obs.\n3959\n3959\n\n\nR2\n0.227\n0.227\n\n\n\n * p &lt; 0.05, ** p &lt; 0.01, *** p &lt; 0.001\n\n\n\n\n Errores agrupados por individuo. Solo se muestran términos focales. Fuente: ELSOC 2016 y 2018 (COES).\nLas interacciones son cercanas a cero y no significativas en ambos casos, de modo que la relación negativa entre percepción de conflicto de clases y satisfacción con la democracia se mantiene homogénea a lo largo de la ideología política y del grado de confianza en el gobierno.",
+    "crumbs": [
+      "Apéndices",
+      "<span class='chapter-number'>B</span>  <span class='chapter-title'>Tablas adicionales y robustez</span>"
+    ]
+  }
+]

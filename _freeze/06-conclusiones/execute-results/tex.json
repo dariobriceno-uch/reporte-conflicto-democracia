@@ -1,0 +1,21 @@
+{
+  "hash": "c7d486bb201450f99ec4e59ceced892b",
+  "result": {
+    "engine": "knitr",
+    "markdown": "---\ntitle: \"Conclusiones\"\n---\n\n\n\nEste trabajo analizó la relación entre la percepción del conflicto de clases y la satisfacción con la democracia en Chile a partir de los datos del panel ELSOC (COES) correspondientes a las olas 2016 y 2018. Los resultados respaldan la primera hipótesis: a mayor percepción de conflicto entre la clase alta y la baja, menor es la satisfacción con la democracia (coeficiente ajustado -0,05; *p* = 0,003). La asociación es negativa y estadísticamente significativa aun tras controlar por estatus subjetivo, confianza en el gobierno, ideología y variables sociodemográficas, y con errores estándar agrupados por individuo. En cambio, la segunda hipótesis no encuentra respaldo: la interacción entre conflicto y estatus subjetivo resultó nula (coeficiente 0,00; *p* = 0,888), sin mejora en el ajuste del modelo. La asociación negativa del conflicto percibido es, por tanto, transversal a la posición de clase y no se concentra en los sectores de menor estatus.\n\nDesde el punto de vista teórico, este hallazgo indica que la percepción de una sociedad fracturada por el conflicto de clases coincide con una menor satisfacción con la democracia de manera generalizada, lo cual es consistente con la figura de las ciudadanías críticas y el déficit democrático [@norris2011]. La coexistencia de una democracia mal evaluada y una alta percepción de conflicto genera un escenario de descontento difuso que atraviesa las distintas posiciones sociales.\n\nEl estudio tiene límites que es necesario explicitar. Por tratarse de un diseño observacional y transversal —se emplean dos olas sin modelar el cambio intraindividual—, los resultados son asociativos y no permiten inferencia causal, aunque los errores estándar se agruparon por individuo para reconocer la presencia de las mismas personas en ambas olas. Las medidas son autoreportadas, con los sesgos asociados; y el poder explicativo del modelo depende fuertemente de la confianza en el gobierno, el predictor más robusto, lo que relativiza el peso relativo del conflicto de clases.\n\nEn términos de ciencia abierta, el proyecto incorpora prácticas de transparencia que responden a las preocupaciones contemporáneas sobre la reproducibilidad de la investigación [@baker2016]: pre-registro de hipótesis en OSF, protocolo IPO plenamente reproducible, preprint y publicación del libro en GitHub Pages [@nosek2015]. El pre-registro cumple aquí una función metodológica central: permite reportar sin sesgo una moderación nula como la de H2, evitando tanto su ocultamiento como su reinterpretación oportunista tras conocer los resultados.\n\nComo proyección, se propone aprovechar el carácter longitudinal del panel ELSOC para modelar la evolución intraindividual de estas percepciones, e incorporar otras dimensiones del conflicto social —más allá del eje clase alta-baja— para precisar qué facetas del antagonismo percibido erosionan con mayor fuerza el apoyo a la democracia.\n",
+    "supporting": [
+      "..\\Users\\brice\\OneDrive\\Desktop\\cienciasocialabierta trabajo2 (cagué\\template-evaluacion-final-main\\06-conclusiones_files"
+    ],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {},
+    "engineDependencies": {
+      "knitr": [
+        "{\"type\":\"list\",\"attributes\":{},\"value\":[]}"
+      ]
+    },
+    "preserve": null,
+    "postProcess": false
+  }
+}

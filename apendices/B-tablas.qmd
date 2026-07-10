@@ -1,0 +1,54 @@
+---
+title: "Tablas adicionales y robustez"
+suppress-bibliography: true
+---
+
+Este anexo reúne análisis **exploratorios** (no pre-registrados) que ponen a prueba la
+robustez del hallazgo principal. Se declaran explícitamente como exploratorios para
+distinguirlos del contraste confirmatorio del cuerpo del informe.
+
+```{r}
+#| label: setup-anexo
+#| include: false
+library(dplyr); library(modelsummary); library(sandwich)
+d <- readRDS("input/data-proc/elsoc_analitico.rds") |>
+  mutate(conflicto_c = conflicto - mean(conflicto),
+         estatus_c   = estatus   - mean(estatus, na.rm = TRUE),
+         izqder_c    = izqder     - mean(izqder,  na.rm = TRUE),
+         confgob_c   = confgob    - mean(confgob, na.rm = TRUE))
+# Casos completos para poder agrupar los errores por individuo
+dc <- d[complete.cases(d[, c("satdem","conflicto_c","estatus","izqder","izqder_c",
+                             "confgob","confgob_c","mujer","edad","anio","idencuesta")]), ]
+```
+
+## Moderadores alternativos
+
+Además del estatus subjetivo (H2), se examinaron —de forma exploratoria— dos
+moderadores teóricamente plausibles: la **autoubicación ideológica** y la **confianza en
+el gobierno**. Ninguna interacción resulta estadísticamente significativa, lo que refuerza
+la conclusión de que el efecto del conflicto percibido es **transversal**.
+
+```{r}
+#| label: tbl-robustez
+#| tbl-cap: "Modelos exploratorios con moderadores alternativos (errores agrupados por individuo)"
+#| echo: false
+#| warning: false
+m_ideo <- lm(satdem ~ conflicto_c*izqder_c + estatus + confgob + mujer + edad + anio, data = dc)
+m_conf <- lm(satdem ~ conflicto_c*confgob_c + estatus + izqder + mujer + edad + anio, data = dc)
+vc <- list(vcovCL(m_ideo, cluster = dc$idencuesta),
+           vcovCL(m_conf, cluster = dc$idencuesta))
+cm <- c("conflicto_c"="Conflicto percibido",
+        "conflicto_c:izqder_c"="Conflicto × Ideología",
+        "conflicto_c:confgob_c"="Conflicto × Confianza gob.",
+        "izqder_c"="Izquierda–derecha", "confgob_c"="Confianza gobierno")
+modelsummary(list("× Ideología" = m_ideo, "× Confianza" = m_conf),
+             vcov = vc, coef_map = cm, stars = c("*"=.05,"**"=.01,"***"=.001),
+             gof_map = c("nobs","r.squared"),
+             notes = "Errores agrupados por individuo. Solo se muestran términos focales. Fuente: ELSOC 2016 y 2018 (COES).",
+             output = "kableExtra")
+```
+
+Las interacciones son cercanas a cero y no significativas en ambos casos, de modo que la
+relación negativa entre percepción de conflicto de clases y satisfacción con la democracia
+se mantiene homogénea a lo largo de la ideología política y del grado de confianza en el
+gobierno.

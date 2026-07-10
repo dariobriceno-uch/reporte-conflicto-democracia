@@ -1,0 +1,29 @@
+/.quarto/
+**/*.quarto_ipynb
+
+# Microdatos ELSOC: NO se redistribuyen (acceso público bajo registro en COES).
+# Ver input/data-orig/README.md para obtenerlos y regenerarlos.
+input/data-orig/*.RData
+input/data-proc/*.rds
+output/modelos.rds
+
+# Material que no se publica en el repositorio
+trabajo previo/
+INDICACIONES/
+
+# Artefactos de build obsoletos / salidas en la raíz (el sitio válido está en docs/)
+04-resultados_files/
+_freeze/03-metodologia/
+_freeze/04-resultados/
+/search.json
+/site_libs/
+/reportes-facso-plantilla.tex
+/testnofig.tex
+/README.html
+
+# Artefactos de sistema
+.Rhistory
+.RData
+.Rproj.user/
+Thumbs.db
+.DS_Store

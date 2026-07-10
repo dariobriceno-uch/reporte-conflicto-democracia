@@ -1,0 +1,41 @@
+﻿---
+title: ""
+number-sections: false
+numbered: false
+format:
+  html:
+    title-block-style: none
+    toc: false
+  pdf:
+    title-block-style: none
+---
+
+::: {.content-visible when-format="pdf"}
+\small\textbf{Palabras clave:} conflicto de clases; satisfacción con la democracia; ELSOC; ciencia abierta; Chile
+\normalsize
+:::
+
+::: {.content-visible when-format="html"}
+<style>
+nav#TOC { display: none !important; }
+div[data-when-format="pdf"] { display: none !important; }
+</style>
+<span class="keywords-line"><strong>Palabras clave:</strong> conflicto de clases; satisfacción con la democracia; ELSOC; ciencia abierta; Chile</span>
+:::
+
+# Abstract {.unnumbered}
+
+En un contexto de baja legitimidad democrática y creciente antagonismo social en Chile,
+este estudio examina la relación entre la **percepción del conflicto de clases** y la
+**satisfacción con la democracia**. A partir de los datos abiertos del Estudio
+Longitudinal Social de Chile (ELSOC, COES) para las olas 2016 y 2018 (N = 3.959 casos
+completos), se estiman modelos de regresión lineal con errores estándar agrupados por
+individuo y se contrastan dos hipótesis pre-registradas. Los resultados confirman que **a mayor percepción de
+conflicto de clases, menor es la satisfacción con la democracia** (H1), efecto negativo y
+estadísticamente significativo que se mantiene tras controlar por estatus, ideología,
+confianza en el gobierno, sexo y edad. En cambio, **ese efecto no se intensifica entre las
+personas de menor estatus subjetivo** (H2): opera de manera transversal a la posición de
+clase. El trabajo se enmarca en prácticas de ciencia abierta
+—pre-registro de hipótesis en OSF, protocolo IPO reproducible, preprint y publicación en
+GitHub Pages—, ilustrando cómo el pre-registro permite reportar sin sesgo tanto una
+hipótesis confirmada como una moderación nula.

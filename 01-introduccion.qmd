@@ -1,0 +1,26 @@
+---
+title: "Introducción"
+numbered: true
+---
+
+Chile atraviesa un ciclo prolongado de baja satisfacción con la democracia que convive con una intensa percepción de conflicto entre las clases sociales. El estallido social de 2019 hizo visible una crisis de legitimidad institucional cuyas raíces se vinculan a la desigualdad y a la fractura entre los estratos socioeconómicos [@murillo2021]. En este contexto, la satisfacción con la democracia opera como un indicador de apoyo específico al desempeño del sistema [@easton1975], y su erosión sostenida coincide con niveles regionalmente bajos de adhesión [@latinobarometro2023]. Sin embargo, la literatura ha estudiado por separado los determinantes de la satisfacción democrática y las bases sociales del conflicto de clases [@perez_andrade2021], dejando abierto el vínculo entre ambos fenómenos.
+
+## Problema y pregunta de investigación
+
+Este capítulo aborda ese vacío preguntando: ¿en qué medida la percepción del conflicto de clases se asocia con la satisfacción con la democracia en Chile, y esa relación es más intensa entre las personas de menor estatus social subjetivo? La conjetura de partida es que percibir una sociedad fracturada por el antagonismo entre la clase alta y la baja se asocia con una peor valoración del funcionamiento democrático, y que esa relación podría concentrarse en los sectores más vulnerables.
+
+## Objetivos
+
+El objetivo general es estimar la asociación entre la percepción del conflicto de clases y la satisfacción con la democracia. Los objetivos específicos son: (i) describir ambos fenómenos en la población adulta chilena; (ii) evaluar el efecto del conflicto percibido controlando por factores sociopolíticos relevantes; y (iii) examinar si dicho efecto varía según el estatus social subjetivo.
+
+## Estrategia empírica y adelanto de resultados
+
+Se utilizan datos del panel ELSOC del COES para las olas 2016 y 2018 [@coes_elsoc2023], con modelos de regresión lineal y errores estándar agrupados por individuo. Los resultados apoyan la primera hipótesis: a mayor percepción de conflicto, menor satisfacción con la democracia, con una asociación negativa y estadísticamente significativa. En cambio, la segunda hipótesis no se sostiene: la interacción con el estatus subjetivo no es significativa, de modo que la asociación es transversal a la posición de clase.
+
+## Contribución y alcances del proyecto abierto
+
+La contribución esperada es doble: teórica, al conectar dos cuerpos de literatura habitualmente disociados, y metodológica, al reformular un trabajo previo bajo estándares de ciencia abierta [@nosek2015] —pre-registro de hipótesis en OSF, protocolo IPO reproducible, preprint y publicación en GitHub Pages—. En cuanto a sus alcances, se trata de un diseño observacional y transversal, por lo que los resultados son asociativos y no permiten inferencia causal; estos y otros límites se retoman en las conclusiones.
+
+## Estructura del documento
+
+El resto del reporte presenta los antecedentes teóricos, las hipótesis pre-registradas, los métodos, los resultados y las conclusiones, seguidos de un anexo con los instrumentos ELSOC.

@@ -1,0 +1,77 @@
+---
+title: "Métodos"
+numbered: true
+---
+
+```{r}
+#| label: setup-metodos
+#| include: false
+library(dplyr)
+library(knitr)
+datos <- readRDS("input/data-proc/elsoc_analitico.rds")
+res   <- readRDS("output/resultados.rds")
+fmt   <- function(x, d = 2) formatC(x, format = "f", digits = d, big.mark = ".", decimal.mark = ",")
+```
+
+## Datos y acceso abierto
+
+El estudio utiliza el **Estudio Longitudinal Social de Chile (ELSOC)**, encuesta
+panel del Centro de Estudios de Conflicto y Cohesión Social (COES) que sigue a una
+muestra probabilística de personas residentes en Chile [@coes_elsoc2023]. Se emplea
+la versión pública `ELSOC_Long_2016_2022_v1.00`, de acceso libre bajo registro en el
+repositorio del COES (<https://coes.cl/encuesta-panel/>). El indicador central de este
+trabajo —la percepción de conflicto entre clase alta y baja (`f01_03`)— solo fue
+levantado en las olas de **2016 y 2018**, por lo que el análisis se restringe a esos
+dos años. Tras eliminar los códigos perdidos propios de ELSOC (−999 a −666), la muestra
+analítica queda en **`r fmt(res$n_total, 0)` observaciones** con información válida en las
+variables focales y **`r fmt(res$n_completo, 0)`** casos completos —correspondientes a
+`r fmt(res$n_clusters, 0)` individuos— para los modelos multivariados.
+
+## Protocolo reproducible (IPO)
+
+El flujo sigue la estructura **Entrada–Proceso–Salida**:
+
+- **`input/`** — datos originales (`data-orig/`) y el conjunto analítico depurado
+  (`data-proc/elsoc_analitico.rds`).
+- **`procesamiento/`** — `01-preparacion.R` (selección, recodificación y filtrado) y
+  `02-analisis.R` (modelos, errores robustos y figuras).
+- **`output/`** — tablas, figuras y objetos de resultados que consumen los capítulos.
+
+Con `freeze: auto` los resultados quedan congelados y se regeneran solo al cambiar los
+datos o el código, garantizando reproducibilidad, en línea con los llamados a documentar y
+publicar métodos y protocolos abiertos y verificables [@cilibrasi2024; @knudtson2019]. El
+repositorio, el protocolo y las hipótesis pre-registradas se documentan en OSF, y el
+manuscrito se difunde como preprint antes de la entrega [@nosek2015].
+
+## Operacionalización de variables
+
+```{r}
+#| label: tbl-variables
+#| tbl-cap: "Variables del estudio (ELSOC, olas 2016 y 2018)"
+#| echo: false
+vars <- data.frame(
+  Variable = c("Satisfacción con la democracia (VD)",
+               "Percepción de conflicto de clases",
+               "Estatus social subjetivo",
+               "Autoubicación izquierda–derecha",
+               "Confianza en el gobierno",
+               "Sexo (mujer)", "Edad"),
+  Código   = c("c01","f01_03","d01_01","c15","c05_01","m0_sexo","m0_edad"),
+  Escala   = c("1 Nada – 5 Muy", "1 Nada de conflicto – 5 Mucho conflicto", "0 más bajo – 10 más alto",
+               "0 izquierda – 10 derecha", "1 Nada – 5 Mucha",
+               "0 hombre / 1 mujer", "Años"))
+kable(vars, align = "lll")
+```
+
+## Estrategia analítica
+
+Se estiman modelos de **regresión lineal por mínimos cuadrados ordinarios (MCO)** con
+**errores estándar agrupados por individuo** (*cluster-robust* por `idencuesta`), dado que
+las mismas personas participan en las olas de 2016 y 2018 —lo que viola la independencia
+entre observaciones— y que el trabajo previo detectó heterocedasticidad. Se especifican
+tres modelos: (M1) efecto
+bruto del conflicto percibido; (M2) efecto ajustado por estatus, ideología, confianza en
+el gobierno, sexo, edad y año; y (M3) un término de **interacción `conflicto × estatus`**
+—con ambas variables centradas— para contrastar la hipótesis de moderación. Las dos
+hipótesis fueron **pre-registradas antes de estimar los modelos**, de modo que la prueba
+de H2 constituye un contraste confirmatorio y no una búsqueda posterior de significancia.

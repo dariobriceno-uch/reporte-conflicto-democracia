@@ -1,0 +1,14 @@
+---
+title: "Hipótesis"
+---
+
+Los antecedentes revisados dejan planteado un problema todavía sin resolver: la posible
+incidencia de la percepción del conflicto de clases sobre la satisfacción con la
+democracia, y su eventual dependencia de la posición social de las personas. De ese vacío
+se derivan las dos hipótesis que este estudio pre-registra y somete a prueba.
+
+**H1: A mayor percepción de conflicto de clases entre la clase alta y la clase baja, menor es la satisfacción con la democracia.** La percepción de un conflicto intenso entre grupos sociales opera como una señal de que el sistema no logra procesar ni integrar las tensiones distributivas. Desde Easton, esa percepción reduciría el apoyo específico y, de sostenerse, también el difuso [@easton1975]; en la lógica de ganadores y perdedores, quienes leen el orden social como confrontacional tenderían a sentirse peor representados y menos conformes con el desempeño democrático [@anderson1997].
+
+**H2: El efecto negativo del conflicto percibido sobre la satisfacción con la democracia es más intenso en las personas con menor estatus social subjetivo.** Bajo la hipótesis de vulnerabilidad de clase, quienes se ubican en las posiciones inferiores serían más sensibles al conflicto, pues cargan con mayor exposición a la desigualdad y menor capacidad de incidencia, de modo que su malestar se traduciría con más fuerza en desafección democrática [@bourdieu2012; @perez_andrade2021].
+
+Ambas hipótesis se pre-registran en OSF antes del análisis de los datos, con el fin de garantizar un contraste estrictamente confirmatorio y transparente [@nosek2015].

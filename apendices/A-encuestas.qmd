@@ -1,0 +1,18 @@
+---
+title: "Instrumentos de levantamiento"
+suppress-bibliography: true
+---
+
+## El Estudio Longitudinal Social de Chile (ELSOC)
+
+Los datos provienen del Estudio Longitudinal Social de Chile (ELSOC), encuesta panel de carácter probabilístico desarrollada por el Centro de Estudios de Conflicto y Cohesión Social (COES). El estudio sigue anualmente a una muestra representativa de la población adulta (18 a 75 años) residente en zonas urbanas del país, con el propósito de registrar la evolución de actitudes, creencias y percepciones sobre la convivencia social. En este trabajo se utilizan las olas 2016 y 2018, únicas que incluyen el ítem de percepción de conflicto de clases.
+
+## Ítems utilizados
+
+- **Satisfacción con la democracia (c01):** grado de satisfacción con el funcionamiento de la democracia en Chile (escala 1 = nada satisfecho a 5 = muy satisfecho).
+- **Percepción de conflicto de clases (f01_03):** intensidad del conflicto percibido entre personas de clase alta y personas de clase baja (escala 1 = nada de conflicto a 5 = mucho conflicto).
+- **Estatus social subjetivo (d01_01):** autoubicación en una escalera social de 0 (posición más baja) a 10 (posición más alta).
+- **Autoubicación política (c15):** posición en el eje izquierda-derecha (0 = izquierda a 10 = derecha).
+- **Confianza en el gobierno (c05_01):** nivel de confianza declarada en el gobierno (escala 1 = nada a 5 = mucha).
+
+Las bases y los cuestionarios completos son de acceso público, previo registro gratuito, en el sitio web de COES.
